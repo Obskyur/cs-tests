@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string s = "Hello World!";
+DoReplacement(ref s);
+Console.WriteLine(s);
+
+static void DoReplacement(ref string s)
+{
+  s = s.Replace('H', 'J');
+}

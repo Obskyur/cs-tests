@@ -27,7 +27,7 @@ public class Program
     Cat aCat = new();
     anAnimal = aCat; // Hides
     Console.WriteLine(anAnimal.Pet());
-    Console.WriteLine(anAnimal.Purr());
+    // Console.WriteLine(anAnimal.Purr());
 
   }
 }
